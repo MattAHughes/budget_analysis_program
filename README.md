@@ -3,4 +3,4 @@ Allows the input of a basic budget and creates a quick pdf report (requires mikt
 
 Contains a packages executable for the program in the dist/callBudgetingApp subdirectory.
 
-![visuals](trial_video.mp4)
+![visuals](trial_video.gif)
