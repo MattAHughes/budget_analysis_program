@@ -11,3 +11,4 @@ V 1.4 involves significant changes, including changing the reports to excel, pdf
 
 V 1.5 improves speed from V 1.4, and removes the need to extract further programs (works in a self-contained manner). The new functionality is as below.
 
+![visuals](new_trial.gif)
