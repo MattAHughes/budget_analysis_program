@@ -1,0 +1,1 @@
+{"Category": ["rent", "elec ", "pain"], "Amount": ["250", "150", "10000"], "Frequency": ["weekly", "quarterly", "weekly"]}
