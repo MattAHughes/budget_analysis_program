@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>{{page_title_text}}</title>
+    </head>
+    <body>
+		<div style="text-align:center">
+			<h1>{{title_text}}</h1></div>
+            <p>{{text_string_1}}</p>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center">
+						{{total_costs.to_html(index = false)}}
+					</td>
+				</tr>
+			</table>
+			<p>{{text_string_2}}</p>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center">
+						{{yearly_total_post_tax.to_html(index = false)}}
+					</td>
+				</tr>
+			</table>
+			<p>{{text_string_3}}</p>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center">
+						{{yearly_total_pre_tax.to_html(index = false)}}
+					</td>
+				</tr>
+			</table>
+			<p>{{text_string_4}}</p>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center">
+						{{transposed_budget_table.to_html(index = false)}}
+					</td>
+				</tr>
+			</table>
+			<p style="page-break-before: always">
+			<h2>{{prices_text}}</h2>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center">
+						<img src='budget_breakdown.png' width="700">
+					</td>
+				</tr>
+			</table>
+    </body>
+</html>
